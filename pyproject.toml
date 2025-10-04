@@ -20,7 +20,7 @@ classifiers = [
     "Typing :: Typed",
 ]
 license = "MPL-2.0"
-license-files = ["LICEN[CS]E*"]
+license-files = ["LICENSE"]
 
 [project.urls]
 Homepage = "https://github.com/marsfan/marssfan_py_tools"
@@ -28,6 +28,7 @@ Issues = "https://github.com/marsfan/marssfan_py_tools/issues"
 
 [project.scripts]
 py-update = "marsfan_py_tools.py_update:main"
+compact-vbox = "marsfan_py_tools.compact_vbox_disks:main"
 
 [tool.setuptools.dynamic]
 version = { attr = "marsfan_py_tools.__version__" }
